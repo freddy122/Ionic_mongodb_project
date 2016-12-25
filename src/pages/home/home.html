@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Liste personnel
+    </ion-title>
+	<ion-buttons end>
+		<button ion-button icon-only (click)="addPersonnel()"><ion-icon name="add"></ion-icon></button>
+	</ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list no-lines>
+	<ion-item-sliding *ngFor="let personnel of personnels">
+		{{ personnel.nom }}
+		
+	</ion-item-sliding>
+  </ion-list>
+</ion-content>
