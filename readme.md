@@ -12,7 +12,9 @@ Installer le module nodejs
 
     npm install
 
-En parallel lancé l'api dans ce projet https://github.com/freddy122/Mongodb_personnel_api
+Lancé ce projet https://github.com/freddy122/Mongodb_personnel_api
+    
+    node server.js
 
 Pointez vers le répertoire du projet puis tapez:
 - pour affichage format web
